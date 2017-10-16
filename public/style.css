@@ -1,0 +1,40 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.login_button {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    background: #3498db;
+    padding: 4px 10px 4px 10px;
+    border: solid #1f628d 3px;
+    text-decoration: none;
+    -webkit-transition: opacity 2s;
+    transition: opacity 2s;
+    cursor: pointer;
+}
+
+.login_input {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-transition: opacity 2s;
+    transition: opacity 2s;
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center;
+}
+
+.share_input {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-transition: opacity 2s;
+    transition: opacity 2s;
+    font-family: Arial;
+    font-size: 18px;
+    opacity: 0;
+    text-align: center;
+}

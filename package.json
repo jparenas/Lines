@@ -1,0 +1,20 @@
+{
+  "name": "lines",
+  "version": "1.0.0",
+  "description": "Just a game about Lines.",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node.js",
+    "lines"
+  ],
+  "author": "Juan Pablo Arenas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.7.2"
+  }
+}
